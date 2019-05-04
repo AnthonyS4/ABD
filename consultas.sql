@@ -9,4 +9,3 @@ select id, nombre_usuario, nombre, apellidos from Usuario where
     all(fecha_nacimiento <= '1999/12/31', fecha_nacimiento >= '1996/01/01', id_rol = 1);
 
 
-
