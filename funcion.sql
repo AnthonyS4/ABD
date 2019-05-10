@@ -1,0 +1,6 @@
+DELIMITER //
+CREATE FUNCTION getUser(userID INT) returns VARCHAR(10)
+BEGIN
+RETURN (SELECT DNI FROM usuario WHERE ID = userID);
+END
+//
