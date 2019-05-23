@@ -126,5 +126,5 @@ public class connection {
 		}
 	}
 	
-	private static final String PASSWORD = "anythingyou12";
+	//private static final String PASSWORD; definir esto
 }
